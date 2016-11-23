@@ -1,74 +1,24 @@
 body{
   margin: auto;
   width: 100%;
-}
-img{
-  height: 15%;
-  width: 15%;
-  float: left;
-  margin-left: 15%;
-  margin-right: 2%;
-  margin-top: 0.5%
-};
-header{
-  flex-wrap: wrap;
-  background-color: gray;
+  padding-top: 59px;
 }
 
-/*SWITCH TO FLEX BOX?????????*/
 h1{
   font-size: 2.25em;
-  font-family: 'Ranga', cursive;
-  float: left;
+  font-family: 'Shadows Into Light', cursive;
   margin: auto;
 }
 h3{
   font-size: 1.05em;
   font-family: 'Ranga', cursive;
-  clear: both;
   margin: auto;
 }
-
-/*#navigator-menu-left{
-  text-align: center;
-  font-size: 17px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-family: 'Quicksand', sans-serif;
-}
-#navigator-menu-left ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-}
-
-#navigator-menu-left li {
-    display: inline;
-    text-align: center;
-    padding: 0 1.5%;
-}
-
-#navigator-menu-left li a {
-    float: left;
-    color: white;
-    margin-left: 1%;
-    text-align: center;
-    padding: 10px 15px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-/*#navigator-menu-left li a:hover {
-    background-color: #111;
-}*/
 
 nav{
   background-color: #333;
   width: 100%;
-position: fixed; top: 0px; left: 0px; z-index: 999; 
+  position: fixed; top: 0px; left: 0px; z-index: 999;
 }
 #logo-text{
   font-family: 'Shadows Into Light', cursive;
@@ -80,7 +30,7 @@ position: fixed; top: 0px; left: 0px; z-index: 999;
 }
 
 #logo-text:hover{
-  color: cyan;
+  color: #777;
 }
 .navleft{
   display: inline-block;
@@ -98,7 +48,7 @@ position: fixed; top: 0px; left: 0px; z-index: 999;
 
 .menu-item{
   display: block;
-  color:white;
+  color: #FFF;
   text-align: center;
   float: right;
   text-decoration: none;
@@ -109,28 +59,30 @@ position: fixed; top: 0px; left: 0px; z-index: 999;
   background-color: #111;
 }
 
-/*#navlinks{
-
-  float: left;
-  margin: 0 auto;
-  display: inline-block;
-}*/
-
-/*.navright{
-  float:right;
-  font-size: 17px;
-  width: 50%;
-  list-style-type: none;
+.main-footer{
+  background-color: #333;
+  width: 100%;
+  color: #FFF;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
   margin: 0;
+  padding: 10px 15px;
+  letter-spacing: 2px;
 }
 
-#socialmediabuttons{
-text-align: right;
-float: right;
-margin: 0 auto;
-display:block;
+#main-body{
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgba(7, 8, 2, 0.21);
+  margin: 0 9%;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 0;
+  height: 100%;
 }
 
-.testing{
-  clear: both;
-}*/
+.round-img{
+height: 20%;
+width: 20%;
+border-radius: 50%;
+margin: 0 40%;
+};
