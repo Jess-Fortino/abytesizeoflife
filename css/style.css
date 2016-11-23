@@ -1,0 +1,136 @@
+body{
+  margin: auto;
+  width: 100%;
+}
+img{
+  height: 15%;
+  width: 15%;
+  float: left;
+  margin-left: 15%;
+  margin-right: 2%;
+  margin-top: 0.5%
+};
+header{
+  flex-wrap: wrap;
+  background-color: gray;
+}
+
+/*SWITCH TO FLEX BOX?????????*/
+h1{
+  font-size: 2.25em;
+  font-family: 'Ranga', cursive;
+  float: left;
+  margin: auto;
+}
+h3{
+  font-size: 1.05em;
+  font-family: 'Ranga', cursive;
+  clear: both;
+  margin: auto;
+}
+
+/*#navigator-menu-left{
+  text-align: center;
+  font-size: 17px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+}
+#navigator-menu-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+
+#navigator-menu-left li {
+    display: inline;
+    text-align: center;
+    padding: 0 1.5%;
+}
+
+#navigator-menu-left li a {
+    float: left;
+    color: white;
+    margin-left: 1%;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+/*#navigator-menu-left li a:hover {
+    background-color: #111;
+}*/
+
+nav{
+  background-color: #333;
+  width: 100%;
+position: fixed; top: 0px; left: 0px; z-index: 999; 
+}
+#logo-text{
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+  font-size: 32px;
+  float: left;
+  text-decoration: none;
+  padding: 0 2.5%;
+}
+
+#logo-text:hover{
+  color: cyan;
+}
+.navleft{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item{
+  display: block;
+  color:white;
+  text-align: center;
+  float: right;
+  text-decoration: none;
+  padding: 1.2% 2%;
+}
+
+.menu-item:hover{
+  background-color: #111;
+}
+
+/*#navlinks{
+
+  float: left;
+  margin: 0 auto;
+  display: inline-block;
+}*/
+
+/*.navright{
+  float:right;
+  font-size: 17px;
+  width: 50%;
+  list-style-type: none;
+  margin: 0;
+}
+
+#socialmediabuttons{
+text-align: right;
+float: right;
+margin: 0 auto;
+display:block;
+}
+
+.testing{
+  clear: both;
+}*/
