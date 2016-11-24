@@ -2,21 +2,28 @@ body{
   margin: auto;
   width: 100%;
   padding-top: 59px;
-  background-color: #FFF;
+  background-color: #bbb;
+  overflow-x: hidden;
 }
-#homewrap{
-  background-image:url("background/1.jpg");
+.parallax1{
+  background:url("background/1.jpg") no-repeat center center fixed;
   background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.parallax2{
+  background: #ccc no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 100vh;
+  width: 100%
 }
 h1{
   font-size: 2.25em;
   font-family: 'Shadows Into Light', cursive;
   margin: auto;
-}
-h3{
-  font-size: 1.05em;
-  font-family: 'Ranga', cursive;
-  margin: auto;
+
 }
 /*NAVIGATION BAR AND HEADER/FOOTER*/
 nav{
@@ -72,20 +79,20 @@ nav{
   margin: 0;
   padding: 10px 15px;
   letter-spacing: 2px;
+  /*position: absolute;*/
+
 }
 
 /*MAIN BODY*/
 
-#main-body{
+.main-body{
   font-family: 'Quicksand', sans-serif;
-  background-color: rgba(7, 8, 2, 0.21);
+  background-color: rgba(255, 255, 255, 0.32);
   margin: 0 9%;
   text-align: center;
-  padding-top: 3%;
+  padding-top: 2%;
   padding-bottom: 0;
-  height: 100%;
 }
-
 #about-me{
   border: 1px dotted black;
   margin: 1% 10%;
@@ -99,7 +106,16 @@ nav{
 #homepagetitle{
   font-family: 'Shadows Into Light', cursive;
   color: #FFF;
-
+  text-align: center;
+  padding: 20% 0 0 0;
+  margin: 0;
+  font-size: 4em;
+  display: inline-block;
+}
+#homepagetitle2{
+  font-family: 'Quicksand', sans-serif;
+  color: #FFF;
+  margin: 0;
 }
 
 /*IMAGES*/
