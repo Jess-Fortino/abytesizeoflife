@@ -2,9 +2,12 @@ body{
   margin: auto;
   width: 100%;
   padding-top: 59px;
-  background-color: cyan;
+  background-color: #FFF;
 }
-
+#homewrap{
+  background-image:url("background/1.jpg");
+  background-size: cover;
+}
 h1{
   font-size: 2.25em;
   font-family: 'Shadows Into Light', cursive;
@@ -85,11 +88,12 @@ nav{
 
 #about-me{
   border: 1px dotted black;
-  margin: 1% 15%;
+  margin: 1% 10%;
 }
 
-.main-artcile{
+.main-article{
   margin: 0;
+  font-size: 1.24em;
 }
 
 #homepagetitle{
