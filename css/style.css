@@ -23,7 +23,12 @@ h1{
   font-size: 2.25em;
   font-family: 'Shadows Into Light', cursive;
   margin: auto;
-
+}
+.portfolio-container{
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
 }
 /*NAVIGATION BAR AND HEADER/FOOTER*/
 nav{
@@ -38,6 +43,7 @@ nav{
   float: left;
   text-decoration: none;
   padding: 0 2.5%;
+  margin: auto;
 }
 
 #logo-text:hover{
@@ -74,13 +80,12 @@ nav{
   background-color: #333;
   width: 100%;
   color: #FFF;
+  font-size: 1em;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   margin: 0;
   padding: 10px 15px;
   letter-spacing: 2px;
-  /*position: absolute;*/
-
 }
 
 /*MAIN BODY*/
@@ -116,8 +121,39 @@ nav{
   font-family: 'Quicksand', sans-serif;
   color: #FFF;
   margin: 0;
+  letter-spacing: 1px;
 }
 
+.page-title{
+  font-size: 3em;
+  color: #333;
+  font-family: 'Shadows Into Light', cursive;;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: auto;
+  padding-top: 4.5%;
+  padding-bottom: 4.5%;
+}
+.project-title{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  color: #333;
+}
+.project-link{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+.project-link:hover{
+  text-decoration: none;
+  color: #333;
+}
+
+.gap{
+  margin-top: 3%;
+}
 /*IMAGES*/
 .round-img{
 width: 20%;
