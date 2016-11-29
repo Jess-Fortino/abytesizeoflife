@@ -5,14 +5,14 @@ body{
   background-color: #bbb;
   overflow-x: hidden;
 }
-.parallax1{
+#parallax1{
   background:url("background/1.jpg") no-repeat center center fixed;
   background-size: cover;
   text-align: center;
   min-height: 100vh;
   width: 100%;
 }
-.parallax2{
+#parallax2{
   background: #ccc no-repeat center center fixed;
   background-size: cover;
   text-align: center;
@@ -24,66 +24,49 @@ h1{
   font-family: 'Shadows Into Light', cursive;
   margin: auto;
 }
-.portfolio-container{
-  width: 85%;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: #fff;
-}
 /*NAVIGATION BAR AND HEADER/FOOTER*/
-header{
-  background-color: #333;
+.navbar{
   width: 100%;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 999;
-}
-#logo-text{
-  font-family: 'Shadows Into Light', cursive;
-  color: white;
-  font-size: 2em;
-  position: inline;
-  /*float: left;*/
-  text-decoration: none;
-  padding: 0 2.5%;
-  margin: auto;
-}
-
-#logo-text:hover{
-  color: #777;
-}
-.navleft{
-  display: inline-block;
-  text-align: center;
-  width: 100%;
-  font-size: 17px;
-  font-family: 'Quicksand', sans-serif;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  list-style-type: none;
-  overflow: hidden;
-  margin: 0;
   padding: 0;
+  margin: 0;
+  top: 0;
+  left:0;
+  position: fixed;
+  z-index: 999;
+  overflow: hidden;
+  list-style-type: none;
+  background-color: #333;
 }
-
-.menu-item{
-  display: inline-block;
+.nav-item{
+  display: block;
+  float: right;
   color: #FFF;
+  text-decoration: none;
   text-align: center;
-  /*float: right;*/
-  text-decoration: none;
-  padding: 1em 2%;
-  vertical-align: middle;
+  padding: 1.675em 1.5em;
   font-size: 1em;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .3em;
 }
-
-.menu-item:hover{
+.nav-item:hover{
   background-color: #111;
+}
+#logo{
+  display: block;
+  float:left;
   color: #FFF;
   text-decoration: none;
+  text-align: center;
+  padding: 0.075em .2em;
+  margin-left: 3%;
+  font-size: 2.5em;
+  font-family: 'Shadows Into Light', cursive;
+  text-transform: uppercase;
 }
-
+#logo:hover{
+  color: #ccc;
+}
 .main-footer{
   background-color: #333;
   width: 100%;
