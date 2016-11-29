@@ -31,16 +31,20 @@ h1{
   background-color: #fff;
 }
 /*NAVIGATION BAR AND HEADER/FOOTER*/
-nav{
+header{
   background-color: #333;
   width: 100%;
-  position: fixed; top: 0px; left: 0px; z-index: 999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
 }
 #logo-text{
   font-family: 'Shadows Into Light', cursive;
   color: white;
   font-size: 2em;
-  float: left;
+  position: inline;
+  /*float: left;*/
   text-decoration: none;
   padding: 0 2.5%;
   margin: auto;
@@ -64,16 +68,20 @@ nav{
 }
 
 .menu-item{
-  display: block;
+  display: inline-block;
   color: #FFF;
   text-align: center;
-  float: right;
+  /*float: right;*/
   text-decoration: none;
-  padding: 1.2% 2%;
+  padding: 1em 2%;
+  vertical-align: middle;
+  font-size: 1em;
 }
 
 .menu-item:hover{
   background-color: #111;
+  color: #FFF;
+  text-decoration: none;
 }
 
 .main-footer{
@@ -153,7 +161,19 @@ nav{
 
 .gap{
   margin-top: 3%;
+  clear: both;
 }
+.col-md-4{
+  width: 33%;
+  float: left;
+  margin: 1% 1%;
+}
+.img-responsive{
+  width: 100%;
+  align-items: center;
+  display: block;
+}
+
 /*IMAGES*/
 .round-img{
 width: 20%;
