@@ -4,25 +4,51 @@ body{
   padding-top: 59px;
   background-color: #bbb;
   overflow-x: hidden;
+  font-family: 'Quicksand', sans-serif;
+  color: #FFF;
 }
 #parallax1{
-  background:url("background/1.jpg") no-repeat center center fixed;
+  background: #555 no-repeat center center fixed;
   background-size: cover;
   text-align: center;
   min-height: 100vh;
   width: 100%;
+  padding: 0;
+  background-position: 50% 0;
+  position: relative;
+  display: block;
 }
 #parallax2{
   background: #ccc no-repeat center center fixed;
   background-size: cover;
   text-align: center;
-  min-height: 100vh;
-  width: 100%
+  min-height: 50vh;
+  width: 100%;
 }
-h1{
-  font-size: 2.25em;
-  font-family: 'Shadows Into Light', cursive;
-  margin: auto;
+#parallax3{
+  background: #000 no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 50vh;
+  width: 100%;
+}
+#parallax4{
+  background: #ccc no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 40vh;
+  width: 100%;
+}
+.portfolio-title{
+  background: #555 no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+  min-height: 30vh;
+  width: 100%;
+  padding: 0;
+  background-position: 50% 0;
+  position: relative;
+  display: block;
 }
 /*NAVIGATION BAR AND HEADER/FOOTER*/
 .navbar{
@@ -46,6 +72,7 @@ h1{
   padding: 1.675em 1.5em;
   font-size: 1em;
   font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .3em;
 }
@@ -74,9 +101,9 @@ h1{
   font-size: 1em;
   font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
-  margin: 0;
   padding: 10px 15px;
   letter-spacing: 2px;
+  clear: both;
 }
 
 /*MAIN BODY*/
@@ -88,6 +115,7 @@ h1{
   text-align: center;
   padding-top: 2%;
   padding-bottom: 0;
+  min-height: 100%;
 }
 #about-me{
   border: 1px dotted black;
@@ -99,62 +127,85 @@ h1{
   font-size: 1.24em;
 }
 
-#homepagetitle{
+.page-title{
   font-family: 'Shadows Into Light', cursive;
   color: #FFF;
   text-align: center;
-  padding: 20% 0 0 0;
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+  right: 10%;
+  left: 10%;
   margin: 0;
-  font-size: 4em;
-  display: inline-block;
+  padding: 0;
+  font-size: 3em;
 }
 #homepagetitle2{
   font-family: 'Quicksand', sans-serif;
   color: #FFF;
   margin: 0;
   letter-spacing: 1px;
+  top: 40%;
+  bottom: 50%;
+  left: 10%;
+  right: 10%;
+  margin-top: 2%;
+  position: absolute;
 }
-
-.page-title{
-  font-size: 3em;
-  color: #333;
-  font-family: 'Shadows Into Light', cursive;;
-  letter-spacing: 2px;
-  text-align: center;
-  margin: auto;
-  padding-top: 4.5%;
-  padding-bottom: 4.5%;
-}
-.project-title{
-  text-align: center;
+#parallax2 h2{
   font-family: 'Quicksand', sans-serif;
-  text-transform: uppercase;
-  color: #333;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1px;
 }
-.project-link{
-  text-align: center;
+#parallax3 h2{
   font-family: 'Quicksand', sans-serif;
-  text-decoration: none;
-  font-size: 1.25em;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1px;
 }
-.project-link:hover{
-  text-decoration: none;
-  color: #333;
+#parallax4 h2{
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  margin: 0;
+  letter-spacing: 1px;
 }
-
-.gap{
-  margin-top: 3%;
-  clear: both;
+/*#learn-more{
+  padding: 2px;
+}*/
+button{
+  padding: .8%;
+  margin-top: 1%;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2em;
 }
-.col-md-4{
+.portfolio{
+  width: 90%;
+  margin-left: 5%;
+  text-align: center;
+}
+.project{
   width: 33%;
   float: left;
-  margin: 1% 1%;
-}
-.img-responsive{
-  width: 100%;
-  align-items: center;
   display: block;
+  text-align: center;
+  padding-top: 3%;
+}
+.project-title{
+  margin: 1% 0;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+.project-link{
+  margin: 0 0 1% 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000;
+}
+.project-link:hover{
+  color: white;
 }
 
 /*IMAGES*/
@@ -164,3 +215,8 @@ border-radius: 50%;
 top: auto;
 left: auto;
 };
+.img-responsive{
+  width: 100%;
+  align-items: center;
+  display: block;
+}
