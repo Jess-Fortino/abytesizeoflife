@@ -2,7 +2,7 @@ body{
   margin: auto;
   width: 100%;
   padding-top: 59px;
-  background-color: #bbb;
+  background-color: #333;
   overflow-x: hidden;
   font-family: 'Quicksand', sans-serif;
   color: #FFF;
@@ -10,6 +10,10 @@ body{
 p{
   padding: 0;
   margin: 0;
+}
+article{
+  margin: 0;
+  padding: 0;
 }
 #parallax1{
   background: #CECECE no-repeat center center fixed;
@@ -72,42 +76,7 @@ p{
   width: 60%;
   margin: 0 20%;
 }
-#form-box{
-  text-align: center;
-  margin: 2% 10%;
-}
-.field{
-  margin: 1% 0;
-}
-label{
-  font-size: 1.5em;
-}
-input{
-  padding: 10px 10px;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 1em;
-}
-select{
-  padding: 100px 100px;
-  border: none;
-  border-radius: 4px;
-  background-color: #f1f1f1;
-  font-size: 1em;
-  margin: 0;
-}
-textarea{
-  padding: 1% 2%;
-  margin: 0;
-}
 
-#form-box ul{
-  list-style: none;
-}
-#form-box li{
-  float: left;
-  width: 50%;
-}
 /*NAVIGATION BAR AND HEADER/FOOTER*/
 .navbar{
   width: 100%;
@@ -135,8 +104,8 @@ textarea{
   letter-spacing: .3em;
 }
 .nav-item:hover{
-  background-color: #111;
-  /*color: #AE7CD5;*/
+  /*background-color: #111;*/
+  color: #AE7CD5;
 }
 #logo{
   display: block;
@@ -191,15 +160,16 @@ textarea{
 .main-body{
   font-family: 'Quicksand', sans-serif;
   background-color: rgba(255, 255, 255, 0.32);
-  margin: 0 9%;
+  margin: 0;
   text-align: center;
   padding-top: 2%;
   padding-bottom: 0;
   min-height: 100%;
+  width: 100%;
 }
 #about-me{
-  border: 1px dotted black;
-  margin: 1% 10%;
+  margin: 1% 10% 0 10%;
+  padding: 0 0 1% 0;
 }
 
 .main-article{
@@ -277,10 +247,14 @@ button{
   font-family: 'Quicksand', sans-serif;
   font-size: 1.2em;
 }
+/*Portfolio Page*/
 .portfolio{
   width: 90%;
   margin-left: 5%;
   text-align: center;
+}
+.wrap{
+  background-color: #bbb;
 }
 .project{
   width: 33%;
@@ -305,6 +279,35 @@ button{
 .project-link:hover{
   color: white;
 }
+
+.last-row{
+  margin-bottom: 3%;
+}
+/*Contact me Form*/
+form{
+  width: 100%;
+  text-align: center;
+}
+form h2{
+  margin: 1% 0;
+  text-align: center;
+  font-size: 3em;
+}
+input{
+  outline: none;
+  border: none;
+}
+textarea{
+  outline: none;
+  resize: none;
+  overflow: auto;
+  height: 20em;
+  width: 40em;
+}
+select{
+  background-color: white;
+}
+
 
 /*IMAGES*/
 .round-img{
