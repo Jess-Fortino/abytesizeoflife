@@ -36,31 +36,45 @@
   <form>
     <h2>Email Me!</h2>
     <div class="field">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" required></input>
+      <input type="text" id="name" name="name" placeholder="Name" required></input>
     </div>
     <div class="field">
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required></input>
+      <input type="email" id="email" name="email" placeholder="Email" required></input>
       <br>
+    </div>
+    <div class="field">
+      <input type="website" id="website" name="website" placeholder="www.example.com"></input>
+    </div>
+    <br>
     <select id="contact-form">
       <option value="nothing">Please Choose One</option>
-      <option value="option1">Option 1</option>
-      <option value="option2">Option 2</option>
-      <option value="option3">Option 3</option>
+      <option value="general">General Inquiry</option>
+      <option value="wdd">Web Design and Development</option>
+      <option value="services">Services</option>
     </select>
+<div class="gap"></div>
 
-
-    <div class="group" id="option1">
-      <textarea id="message" placeholder="Type your message here..."></textarea>
+    <div class="group" id="general">
+      <textarea class="message" placeholder="Type your general inquiry here..."></textarea>
       <br>
       <button class="submit">Submit</button>
-
-
     </div>
-    <div class="group" id="option2">blah2</div>
-    <div class="group" id="option3">blah3</div>
+
+    <div class="group" id="wdd">
+      <textarea class="message" placeholder="Type your Web Design or Development question here..."></textarea>
+      <br>
+      <button class="submit">Submit</button>
+    </div>
+
+    <div class="group" id="services">
+      <textarea class="message" placeholder="Type your question about services here..."></textarea>
+      <br>
+      <button class="submit">Submit</button>
+    </div>
+    <div class="gap"></div>
 </form>
+
+<div class="banner"></div>
 
   <div class="social-media-bar">
     <a href="https://twitter.com" target="_blank">Twitter</a>

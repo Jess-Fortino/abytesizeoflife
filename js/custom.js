@@ -5,6 +5,12 @@ $(document).ready(function () {
     $('.group').hide();
     $('#'+$(this).val()).slideDown('slow');
   })
+  $('input').focus(function(){
+    $(this).css('outline-color', '#FF0000')
+  })
+  $('select').focus(function(){
+    $(this).css('outline-color', '#FF0000')
+  })
 });
 
 
